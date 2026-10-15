@@ -1,0 +1,54 @@
+{
+    "v3-occurrence-00007235-5211-4633-98bb-0f8f9ad53e0f-7279c3b5.json": {
+        "url": "https://api.obis.org/v3/occurrence/00007235-5211-4633-98bb-0f8f9ad53e0f",
+        "status": 200
+    },
+    "v3-occurrence-geometry-polygon-170-20-190-20-190-15-170-15-170-20-fiel-44081895.json": {
+        "url": "https://api.obis.org/v3/occurrence?geometry=POLYGON((170 -20,190 -20,190 -15,170 -15,170 -20))&fields=id,occurrenceID,scientificName,scientificNameAuthorship,aphiaID,taxonRank,vernacularName,eventDate,date_start,date_end,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,depth,minimumDepthInMeters,maximumDepthInMeters,basisOfRecord,country,locality,waterBody,recordedBy,institutionCode,datasetName,dataset_id,license,individualCount,sst,sss,bathymetry,shoredistance,flags,kingdom,phylum,class,order,family,genus&size=6",
+        "status": 200
+    },
+    "v3-occurrence-geometry-polygon-5-2-43-569796-5-236498-43-568491-5-2726-8a6da0ab.json": {
+        "url": "https://api.obis.org/v3/occurrence?geometry=POLYGON((5.2 43.569796,5.236498 43.568491,5.272639 43.564589,5.308072 43.558128,5.342451 43.549171,5.375441 43.537805,5.406721 43.524142,5.435989 43.508313,5.46296 43.490474,5.487375 43.470798,5.508999 43.449475,5.527625 43.426714,5.543077 43.402734,5.555208 43.377769,5.563904 43.352058,5.569088 43.325851,5.570712 43.299401,5.568767 43.272963,5.563275 43.24679,5.554294 43.221135,5.541914 43.196244,5.526258 43.172355,5.507479 43.149697,5.485762 43.128487,5.461315 43.108927,5.434375 43.091205,5.405202 43.075489,5.374073 43.061929,5.341288 43.050654,5.307158 43.041771,5.27201 43.035365,5.236177 43.031497,5.2 43.030204,5.163823 43.031497,5.12799 43.035365,5.092842 43.041771,5.058712 43.050654,5.025927 43.061929,4.994798 43.075489,4.965625 43.091205,4.938685 43.108927,4.914238 43.128487,4.892521 43.149697,4.873742 43.172355,4.858086 43.196244,4.845706 43.221135,4.836725 43.24679,4.831233 43.272963,4.829288 43.299401,4.830912 43.325851,4.836096 43.352058,4.844792 43.377769,4.856923 43.402734,4.872375 43.426714,4.891001 43.449475,4.912625 43.470798,4.93704 43.490474,4.964011 43.508313,4.993279 43.524142,5.024559 43.537805,5.057549 43.549171,5.091928 43.558128,5.127361 43.564589,5.163502 43.568491,5.2 43.569796))&startdate=2024-01-01&enddate=2024-12-31&fields=id,occurrenceID,scientificName,scientificNameAuthorship,aphiaID,taxonRank,vernacularName,eventDate,date_start,date_end,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,depth,minimumDepthInMeters,maximumDepthInMeters,basisOfRecord,country,locality,waterBody,recordedBy,institutionCode,datasetName,dataset_id,license,individualCount,sst,sss,bathymetry,shoredistance,flags,kingdom,phylum,class,order,family,genus&size=51",
+        "status": 200
+    },
+    "v3-occurrence-scientificname-holothuroidea-startdepth-3000-enddepth-40-364759f2.json": {
+        "url": "https://api.obis.org/v3/occurrence?scientificname=Holothuroidea&startdepth=3000&enddepth=4000&fields=id,occurrenceID,scientificName,scientificNameAuthorship,aphiaID,taxonRank,vernacularName,eventDate,date_start,date_end,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,depth,minimumDepthInMeters,maximumDepthInMeters,basisOfRecord,country,locality,waterBody,recordedBy,institutionCode,datasetName,dataset_id,license,individualCount,sst,sss,bathymetry,shoredistance,flags,kingdom,phylum,class,order,family,genus&size=11",
+        "status": 200
+    },
+    "v3-occurrence-taxonid-137094-geometry-polygon-10-43-1-43-1-48-10-48-10-1bbde171.json": {
+        "url": "https://api.obis.org/v3/occurrence?taxonid=137094&geometry=POLYGON((-10 43,-1 43,-1 48,-10 48,-10 43))&startdate=2023-01-01&enddate=2023-12-31&fields=id,occurrenceID,scientificName,scientificNameAuthorship,aphiaID,taxonRank,vernacularName,eventDate,date_start,date_end,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,depth,minimumDepthInMeters,maximumDepthInMeters,basisOfRecord,country,locality,waterBody,recordedBy,institutionCode,datasetName,dataset_id,license,individualCount,sst,sss,bathymetry,shoredistance,flags,kingdom,phylum,class,order,family,genus&after=bb0bdf40-2d28-411d-b735-d63d4c467ece&size=21",
+        "status": 200
+    },
+    "v3-occurrence-taxonid-137094-geometry-polygon-10-43-1-43-1-48-10-48-10-447b9654.json": {
+        "url": "https://api.obis.org/v3/occurrence?taxonid=137094&geometry=POLYGON((-10 43,-1 43,-1 48,-10 48,-10 43))&startdate=2023-01-01&enddate=2023-12-31&fields=id,occurrenceID,scientificName,scientificNameAuthorship,aphiaID,taxonRank,vernacularName,eventDate,date_start,date_end,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,depth,minimumDepthInMeters,maximumDepthInMeters,basisOfRecord,country,locality,waterBody,recordedBy,institutionCode,datasetName,dataset_id,license,individualCount,sst,sss,bathymetry,shoredistance,flags,kingdom,phylum,class,order,family,genus&size=21",
+        "status": 200
+    },
+    "v3-statistics-taxonid-137094-6a69a655.json": {
+        "url": "https://api.obis.org/v3/statistics?taxonid=137094",
+        "status": 200
+    },
+    "v3-statistics-taxonid-383799-5349ba16.json": {
+        "url": "https://api.obis.org/v3/statistics?taxonid=383799",
+        "status": 200
+    },
+    "v3-taxon-137094-92762901.json": {
+        "url": "https://api.obis.org/v3/taxon/137094",
+        "status": 200
+    },
+    "v3-taxon-999999999-0c358b5a.json": {
+        "url": "https://api.obis.org/v3/taxon/999999999",
+        "status": 200
+    },
+    "v3-taxon-delphinus-albimanus-f9994c47.json": {
+        "url": "https://api.obis.org/v3/taxon/Delphinus albimanus",
+        "status": 200
+    },
+    "v3-taxon-delphinus-delphis-44af3b02.json": {
+        "url": "https://api.obis.org/v3/taxon/Delphinus delphis",
+        "status": 200
+    },
+    "v3-taxon-nothingus-nowhereus-fa694300.json": {
+        "url": "https://api.obis.org/v3/taxon/Nothingus nowhereus",
+        "status": 200
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "omnilab/obis",
+    "type": "library",
+    "description": "Omnilab OBIS: a marine taxon of the Ocean Biodiversity Information System by its WoRMS AphiaID or its name - rank, status, classification, vernacular names, NCBI id, habitat, how many records OBIS holds - and the occurrences of a place and a period (by taxon, depth, dataset, Red List species), each with its time, place, depth, the sea surface temperature and salinity at its place, its taxon related, through the OBIS API v3, no key needed.",
+    "keywords": [
+        "science",
+        "biodiversity",
+        "marine",
+        "ocean",
+        "obis",
+        "worms",
+        "occurrences",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Obis\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Obis\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
