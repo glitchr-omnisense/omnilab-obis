@@ -1,7 +1,7 @@
 # omnilab/obis
 
 OBIS, the Ocean Biodiversity Information System, for
-[glitchr/omnilab](https://github.com/glitchr-studio/omnilab): a marine taxon by its WoRMS AphiaID
+[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a marine taxon by its WoRMS AphiaID
 (OBIS's taxonomy is the World Register of Marine Species') or its name - its rank, status,
 classification, vernacular names, NCBI taxon, habitat, how many records OBIS holds of it and over
 which years -, and the records of a place and a period in the core's fourth shape
