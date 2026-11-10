@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "obis",
+    "rateLimits": null,
+    "concurrency": 1,
+    "rights": {
+        "commercial": "unknown",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "OBIS (2026) Ocean Biodiversity Information System. Intergovernmental Oceanographic Commission of UNESCO. obis.org.",
+            "url": "https://obis.org",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "Per dataset: CC0-1.0, CC-BY-4.0 or CC-BY-NC-4.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://manual.obis.org/policy.html",
+        "policy": "https://obis.org/data/access/",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "helpdesk@obis.org",
+        "notes": "Data access page read 2026-11-10: no numeric rate; for the API and the R package \"Do not parallelize downloads\" (hence concurrency 1); large extracts through the GeoParquet export on AWS Open Data. Data policy (OBIS manual) read 2026-11-10: datasets are licensed CC0, CC BY or CC BY-NC (CC0 preferred); \"Any use of OBIS data and/or derived products ... should be properly cited\", with the general OBIS citation and each dataset's own citation (dataset, dataset_id); derived OBIS information products are CC0. Commercial use depends on each record's licence (forbidden for CC BY-NC records). No rate-limit headers seen on a test call."
+    }
+}

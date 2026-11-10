@@ -54,6 +54,17 @@ UNESCO. www.obis.org", with the datasets used (`dataset`, `dataset_id`). See
 
 See [docs/](docs/index.md) for what is read, how it maps, and what OBIS does not give here.
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://obis.org/data/access/ on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown); at most 1 in flight.
+- Licence: Per dataset: CC0-1.0, CC-BY-4.0 or CC-BY-NC-4.0; commercial use: unknown.
+- Credit: required: OBIS (2026) Ocean Biodiversity Information System. Intergovernmental Oceanographic Commission of UNESCO. obis.org. (https://obis.org).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or
