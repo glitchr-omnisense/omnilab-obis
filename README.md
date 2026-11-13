@@ -44,6 +44,34 @@ configured the `Merger` joins OBIS's counts to WoRMS's synonyms and cross-refere
 the NCBI taxon, which the `Collector` follows. A record iNaturalist published carries the
 observation's number (`inaturalist.observation`): `$collector->follow($record)` reads it there.
 
+## Install and a first call
+
+```sh
+composer require omnilab/obis
+```
+
+A real call, with no account and no key: the common dolphin in OBIS. `mailto` is your address, sent
+in the User-Agent so that the service can reach you before it blocks a caller; the source keeps to
+the limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Obis\ObisSourceFactory;
+
+$obis = (new ObisSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$dolphin = $obis->entity('137094');
+echo $dolphin->label, ': ', $dolphin->value('records'), " records\n";
+```
+
+Its output on 2026-11-13:
+
+```
+Delphinus delphis: 126378 records
+```
+
 ## Terms of use
 
 The OBIS API is open and needs no key; OBIS publishes no rate limit. Each record keeps its
